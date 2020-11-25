@@ -74,5 +74,4 @@ docker-compose up -d
 
 **docker run -v  ./config:/etc/aliyun-ddns/  -v ./logs:/etc/logs -it  youdmeng/aliddns  /bin/bash**
 
-## 本项目源码 ： https://github.com/youdmeng/aliddns 
- [去Github看看](https://github.com/youdmeng/aliddns)
+## 本项目源码 ： https://github.com/youdmeng/aliddns
