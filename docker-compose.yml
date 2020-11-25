@@ -1,0 +1,10 @@
+version: "3"
+services:
+    aliddns:
+        image:  youdmeng/aliddns
+        container_name: aliddns
+        restart: always
+        volumes: 
+            - ./config:/etc/aliyun-ddns/
+            - ./logs:/etc/logs/
+        command: crond -f
